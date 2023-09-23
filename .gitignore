@@ -102,3 +102,7 @@ dmypy.json
 
 # docker mounted volumes
 /volumes
+
+# jupyter notebook checkpoints
+.ipynb_checkpoints
+
