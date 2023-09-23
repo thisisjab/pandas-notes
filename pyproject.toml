@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pandas-notes"
+version = "0.1.0"
+description = "A jupyter notebook that shows how to use pandas"
+authors = ["thisisjab <heythisisjab@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13" 
+jupyterlab = "^4.0.6"
+pandas = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
